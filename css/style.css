@@ -1,0 +1,66 @@
+/* Normalization */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+.navbar{
+    background-color: purple;
+    border-bottom: 2px solid yellow;
+}
+.navbar-brand{
+    font-family: cursive;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+.home{
+    background-color: purple;
+    height:60vh ;
+}
+.text-head{
+    color: yellow;
+}
+.btn-login{
+    background-color: yellow;
+    color: purple;
+    font-weight: 600;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: all .5s linear;
+}
+.btn-login:hover{
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: yellow;
+}
+.btn-login:focus{
+    outline: none !important;
+}
+.btn-register{
+    background: transparent;
+    border: 2px solid yellow;
+    color: yellow;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: all .5s linear;
+}
+.btn-register:hover{
+    background: yellow;
+    color: purple;
+}
+
+@media(max-width:576px){
+    .home{
+        height: 100vh;
+    }
+    .home img{
+        margin-bottom: 25px;
+    }
+}
